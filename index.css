@@ -1,0 +1,355 @@
+/* HEADER */
+
+#logo{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 15%
+}
+.line{
+    background-color: #333232;
+    width: 80%;
+    height: 3px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.line2{
+    background-color: #333232;
+    width: 80%;
+    height: 3px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 70px;
+}
+.form-group{
+    width: 20%;
+    border-color:#333232;
+    margin-left: auto;
+    margin-right: auto;
+    float: right;
+    margin-right: 23%;
+    margin-top: 16px;
+}
+.form-control{
+    border-color: #333232 !important;
+}
+.dropdown{
+    float: left;
+    margin-left: auto;
+    margin-right: auto;
+    width: 20%;
+    margin-top: 16px;
+    margin-left: 30%;
+}
+.btn-secondary{
+    background-color: transparent !important;
+    border-color: transparent !important;
+    color: #333232 !important;
+}
+textarea:hover, 
+input:hover, 
+textarea:active, 
+input:active, 
+textarea:focus, 
+input:focus,
+button:focus,
+button:active,
+button:hover,
+label:focus,
+.btn:active,
+.btn.active
+{
+    outline:0px !important;
+    -webkit-appearance:none;
+    box-shadow: none !important;
+}
+
+/* HEADER */
+
+
+main{
+    height: 2000px;
+    margin: 20px 150px;
+}
+#big .capa{
+    background-image: url("Imagens/Mostra.PNG");
+    background-size: cover;
+    height: 460px;
+    width: 67%;
+    float: left;
+}
+#big .capa:hover{
+    transition: 0.25s;
+    box-shadow: 0 0 0px 10px rgba(0, 0, 0, 0.247);
+}
+.filtro{
+    width: 100%;
+    height: 100%;
+    backdrop-filter: brightness(70%);
+}
+#big .categoria{
+    color: white !important;
+    font-size: 40px;
+    margin-left: 20px;
+}
+#big .titulo{
+    color: white !important;
+    font-size: 60px;
+    margin-top: 220px;
+    margin-left: 20px;
+}
+#big .data{
+    color: white !important;
+    font-size: 30px;
+    margin-left: 30px;  
+}
+.small .capa{
+    background-image: url("Imagens/podcast.jpg");
+    background-size: cover;
+    height: 206px;
+    width: 30%;
+    float: right;
+    margin-bottom: 48px;
+}
+.small .capa:hover{
+    transition: 0.25s;
+    box-shadow: 0 0 0px 10px rgba(0, 0, 0, 0.247);
+}
+.small .categoria{
+    color: white !important;
+    font-size: 25px;
+    margin-left: 13px;
+}
+.small .titulo{
+    color: white !important;
+    font-size: 35px;
+    margin-left: 13px;
+    margin-top: 60px;
+}
+.small .data{
+    color: white !important;
+    font-size: 20px;
+    margin-left: 15px;
+    margin-top: -10px;
+}
+.line3{
+    background-color: #333232;
+    width: 80%;
+    height: 3px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 500px;
+    position: absolute;
+}
+.line4{
+    background-color: #333232;
+    width: 80%;
+    height: 3px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 30px;
+    position: absolute;
+}
+#sec2 h1{
+    margin-top: 530px;
+}
+#sec3 h1{
+    margin-top: 60px;
+}
+#sec3 a{
+    text-decoration: none !important;
+}
+.info2{
+    display: inline-block;
+    vertical-align: top
+}
+.info2 p{
+    color: black !important;
+    margin-left: 20px;
+}
+.cat{
+    margin-top: 10px;
+    font-size: 30px;
+}
+.tit{
+    font-size: 40px;
+}
+.dat{
+    font-size: 30px;
+}
+.capa2:hover{
+    transition: 0.25s;
+    box-shadow: 0 0 0px 10px rgba(0, 0, 0, 0.247);
+    transform: scale(1.05);
+}
+.capa2{
+    margin-top: 20px;
+}
+
+.swiper-slide .capa{
+    background-image: url("https://www.lumitecfoto.com.br/media/catalog/product/cache/1/image/800x/9df78eab33525d08d6e5fb8d27136e95/f/u/fundo-fotogr_fico-em-tecido-muslin-20x30m-preto-3.jpg");
+    background-size: cover;
+    height: 200px;
+    width: 350px;
+    float: right;
+    margin-bottom: 48px;
+    margin-top: 10px;
+}
+
+.swiper-slide .capa:hover{
+    transition: 0.25s;
+    box-shadow: 0 0 0px 10px rgba(0, 0, 0, 0.247);
+}
+.swiper-slide .data{
+    color: white !important;
+    font-size: 20px;
+    margin-left: 15px;
+    margin-top: -10px;
+}
+.swiper-slide .categoria{
+    color: white !important;
+    font-size: 25px;
+    margin-left: 13px;
+}
+.swiper-slide .titulo{
+    color: white !important;
+    font-size: 35px;
+    margin-left: 13px;
+    margin-top: 60px;
+}
+
+html,
+      body {
+        position: relative;
+        height: 100%;
+      }
+
+      body {
+        background: rgb(255, 255, 255);
+        font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+        font-size: 14px;
+        color: #000;
+        margin: 0;
+        padding: 0;
+      }
+
+      .swiper {
+        width: 100%;
+        height: 100%;
+      }
+
+      .swiper-slide {
+        font-size: 18px;
+        background: #fff;
+        background-color: transparent;
+
+        /* Center slide text vertically */
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: -webkit-flex;
+        display: flex;
+        -webkit-box-pack: center;
+        -ms-flex-pack: center;
+        -webkit-justify-content: center;
+        justify-content: center;
+        -webkit-box-align: center;
+        -ms-flex-align: center;
+        -webkit-align-items: center;
+        align-items: center;
+      }
+
+      .swiper-slide img {
+        display: block;
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+      }
+      .swiper-button-next:after, .swiper-button-prev:after {
+          color: rgb(218, 218, 218);
+      }
+      :root {
+        --swiper-theme-color: rgb(0, 0, 0);
+    }
+    
+    @media (max-width:480px){
+        main{
+            margin: 0px;
+        }
+        #logo{
+            width: 30%;
+        }
+        .line, .line2, .line3, .line4{
+            width: 100%;
+        }
+
+        .capa2 img{
+            width: 100%;
+            height: auto;
+        }
+        .info2{
+            margin-bottom: 30px;
+        }
+        .dropdown{
+            margin-left: 10px;
+        }
+        .form-group{
+            width: 200px;
+            margin-right: 10px;
+        }
+        .line2{
+            margin-bottom: 30px;
+        }
+        .swiper-slide{
+            margin: 0px 200px;
+        }
+        h1{
+            text-align: center;
+            margin-top: 30px;
+        }
+        .sec1{
+            margin-top: 20px;
+        }
+        #big .capa{
+            width: 100%;
+            height: 370px;
+            margin-bottom: 50px;
+        }
+        #big .titulo{
+            margin-top: 150px;
+        }
+        .small .capa{
+            width: 100%;
+            height: 370px;
+        }
+        .line3{
+            margin-top: 1230px
+        }
+        .small .categoria{
+            font-size: 40px;
+        }
+        .small .titulo{
+            font-size: 60px;
+            margin-top: 160px;
+        }
+        .small .data{
+            font-size: 30px;
+        }
+      }
+
+      /*footer*/
+      .line5{
+          margin-top: 30px;
+          width: 100%;
+          background-color: black;
+          height: 3px;
+          margin-right: auto;
+          margin-left: auto;
+      }
+      footer p{
+          font-size: 20px;
+      }
+      .autores{
+          float: right;
+      }
+      
+        
